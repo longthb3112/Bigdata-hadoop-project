@@ -2,14 +2,14 @@
 	package org.myorg;
     
 	import java.io.IOException;
-import java.lang.reflect.Array;
-import java.net.URI;
+	import java.lang.reflect.Array;
+	import java.net.URI;
 	import java.util.*;
 
 	import org.apache.hadoop.fs.FileSystem;
 	import org.apache.hadoop.fs.Path;
-import javafx.util.Pair;
-import org.apache.hadoop.conf.*;
+
+	import org.apache.hadoop.conf.*;
 	import org.apache.hadoop.io.*;
 	import org.apache.hadoop.mapreduce.*;
 	import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
