@@ -2,8 +2,8 @@
 	package org.myorg;
     
 	import java.io.DataInput;
-import java.io.DataOutput;
-import java.io.IOException;
+	import java.io.DataOutput;
+	import java.io.IOException;
 
 	import org.apache.hadoop.fs.Path;
 	import org.apache.hadoop.conf.*;
