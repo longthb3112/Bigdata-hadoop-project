@@ -12,15 +12,15 @@ https://www.datasciencecentral.com/profiles/blogs/how-to-install-and-run-hadoop-
 3 . Use pom.xml for maven ( feel free to update hadoop version ) 
 ```
 # Execute
-
+```
 There are two ways to run:
 1 . Export to jar file and run with hadoop
 2 . Use IDE(IntelliJ, Eclipse) to run directly
-
+```
 # Examples
 Pair
 ```
-Input:   B11 C31 D76 A12 B11 C31 D76 C31 A10 B12 D76 C31
+Input:  	 B11 C31 D76 A12 B11 C31 D76 C31 A10 B12 D76 C31
 		 D76 D76 B12 B11 C31 D76 B12 C31 B11 A12 C31 B12
 Output: 
 		(A10, B12)	0.3333333333333333
@@ -55,7 +55,7 @@ Output:
 
 Stripe
 ```
-Input:  B11 C31 D76 A12 B11 C31 D76 C31 A10 B12 D76 C31
+Input:  	B11 C31 D76 A12 B11 C31 D76 C31 A10 B12 D76 C31
 		D76 D76 B12 B11 C31 D76 B12 C31 B11 A12 C31 B12
 		
 Output: 
